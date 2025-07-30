@@ -100,10 +100,10 @@ const BannerGenerator: React.FC = () => {
                 <h2 className="text-lg font-semibold text-gray-900">Configurações</h2>
               </div>
               
-              {/* <Controls
+              <Controls
                 config={config}
                 onChange={handleConfigChange}
-              /> */}
+              />
             </div>
           </div>
 
