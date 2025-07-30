@@ -41,7 +41,7 @@ const Controls: React.FC<ControlsProps> = ({ config, onChange }) => {
                 value={config.width}
                 onChange={(e) => onChange({ width: parseInt(e.target.value) || 1 })}
                 className="w-full px-3 py-2 text-sm border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
-                min="1"
+                min=""
                 max="2000"
               />
             </div>
@@ -54,7 +54,7 @@ const Controls: React.FC<ControlsProps> = ({ config, onChange }) => {
                 value={config.height}
                 onChange={(e) => onChange({ height: parseInt(e.target.value) || 1 })}
                 className="w-full px-3 py-2 text-sm border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
-                min="1"
+                min=""
                 max="2000"
               />
             </div>
