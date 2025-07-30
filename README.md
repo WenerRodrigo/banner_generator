@@ -1,12 +1,56 @@
-# React + Vite
+# 🖼️ Banner Generator
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este é um gerador de banners online desenvolvido com **React + Vite**. Ele permite criar banners personalizados de forma rápida e intuitiva, com opções de cores, fontes, tamanhos e posicionamento do texto.
 
-Currently, two official plugins are available:
+Ideal para quem precisa de um preview visual antes de produzir banners para redes sociais, websites ou campanhas publicitárias.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## ✨ Funcionalidades
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- 🎯 Tamanhos predefinidos (Instagram, Facebook, YouTube, etc.)
+- 📏 Ajuste manual de largura e altura
+- 🎨 Seletor de cores com paleta personalizada e campo hexadecimal
+- 🖋️ Suporte a Google Fonts com carregamento dinâmico
+- 🔠 Ajuste do tamanho da fonte e tipo de fonte
+- 🧭 Posição automática do texto (topo, centro, canto, etc.)
+- 👁️ Visualização instantânea do resultado
+
+---
+
+## 🛠️ Tecnologias utilizadas
+
+- [React](https://reactjs.org/)
+- [Vite](https://vitejs.dev/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [Lucide React Icons](https://lucide.dev/)
+- [ESLint + Prettier](https://eslint.org/) para qualidade de código
+
+---
+
+## 🚀 Como clonar e rodar o projeto localmente
+
+Se você deseja testar ou contribuir com o projeto, siga os passos abaixo:
+
+### 1. Clone o repositório
+
+
+git clone https://github.com/WenerRodrigo/banner_generator
+
+### 2. Acesse a pasta do projeto
+
+cd banner_generator
+
+
+### 3. Instale as dependências
+
+npm install 
+
+ou, se estiver usando Yarn:
+
+yarn install 
+
+### 4. Rode o projeto
+
+npm run dev ou yarn dev
